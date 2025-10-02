@@ -1,1 +1,3 @@
 # Designer-PDF-Viewer--Algo
+
+This program solves the  problem by calculating the area of the highlighted rectangle needed to display a given word in a PDF viewer. Each letter from 'a' to 'z' has a specific height provided in the list 'h', where the height of a letter is accessed by its position in the alphabet (e.g., 'a'= index 0). For each character in the word, the program finds the maximum height among its letters. It then multiplies this maximum height by the length of the word to calculate the area of the highlighted rectangle. Input includes the list of heights and the word, and the result is written to a designated output stream.
